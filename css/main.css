@@ -1,0 +1,29 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.menu{
+    height:150px;
+    display:flex;
+    flex-direction:row;
+}
+
+.menu-izquierda{
+    width:25%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.menu-izquierda img{
+    width:130px;
+}
+
+.menu-derecha{
+    width:170%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:20px;
+}
