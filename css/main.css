@@ -23,7 +23,7 @@ menu{
 }
 
 .menu-derecha{
-    width:175%;
+    width:100%;
     display:flex;
     justify-content:center;
     align-items:center;
@@ -32,7 +32,7 @@ menu{
 
 
 .menu-derecha a:visited{
-    color: black;
+    color: rgb(0, 0, 0);
 }
 
 .menu-derecha a:hover{
@@ -48,4 +48,58 @@ menu{
         rgba(0,0,0,0.85),
         rgba(0,0,0,0)
     );
+}
+
+@media (max-width: 768px) {
+
+    menu{
+       background: transparent;
+       height: 200px;
+       border:#000000 solid 1px;
+       border-radius: 20px;
+       justify-content: space-around;
+    }
+
+    .menu-izquierda{
+        width:100%;
+        justify-content:center;
+    }
+
+    .menu-derecha {
+        display: none;
+    }
+
+    .menu container{
+       background: black;
+       width: 15%;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+    }
+
+.menu container .hamburger-icon {
+       width: 35%;
+       height: 25%;
+       flex-direction: column;
+       justify-content: space-between;
+    }
+
+
+    .menu container .hamburger-icon span {
+        background-color: white;
+        display: block;
+        width: 100px;
+        height: 4px;
+        background-color: black;
+        margin: 5px 0;
+    }
+
+
+
+
+
+
+
+
 }
