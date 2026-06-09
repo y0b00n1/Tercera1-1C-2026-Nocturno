@@ -15,12 +15,12 @@
 
         <menu>
 
-            <!-- LOGO -->
+            
             <div class="menu-izquierda">
                 <img src="./Logos/logo.png" alt="CRTV">
             </div>
 
-            <!-- BOTÓN HAMBURGUESA -->
+           
             <div class="menu-container">
                 <div class="hamburger-icon">
                     <span></span>
@@ -29,7 +29,7 @@
                 </div>
             </div>
 
-            <!-- MENÚ -->
+            
             <div class="menu-derecha">
                 <a href="index.php">INICIO</a>
                 <a href="IPTV.php">IPTV</a>
@@ -43,7 +43,7 @@
 
     <main>
 
-        <!-- CONTENIDO DE LA PÁGINA -->
+        
 
     </main>
 
