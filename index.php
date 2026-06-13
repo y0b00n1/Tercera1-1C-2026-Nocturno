@@ -1,4 +1,11 @@
 <?php
 include("vistas/vista_superior.php");
-echo "<h1 class='text-center'>Bienvenidos a CRTV</h1>";
+?>
+
+<h1>Bienvenidos a CRTV</h1>
+
+<div id="cards-list" class="cards-list"></div>
+
+<?php
+include("vistas/vista_inferior.php");
 ?>
